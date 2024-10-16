@@ -1,10 +1,19 @@
 # iis_reset
 
+## Step 1: Webhook integration: Search for "webhooks" on the integration page of Datadog and click on it to begin the integration
+
 ![data 1](https://github.com/user-attachments/assets/f6cd5ba6-8789-44fb-931c-839ee174ed0a)
+
+## Step 2: Install the webhook integration: Click on the install to start the installation. 
 
 ![data 2](https://github.com/user-attachments/assets/53fb2feb-f605-4c88-a818-ea38f340ea7e)
 
+## Step 3: Create a webhook: Click "New" or "New Webhook" to create a new one. Fill in the details such as the name of the webhook and URL of the ansible job. We may add payload and auth method later
+
 ![data 3](https://github.com/user-attachments/assets/9a95e292-3a99-42d7-80e2-dc1dcc9ca6ad)
+
+
+## Step 4: Link the webhook to a monitor: Under configure "notification & automations" of the desired monitor, we connect the name of the webhook using "@name_of_webhook" to the monitor as shown in the screenshot below
 
 ![data 4](https://github.com/user-attachments/assets/8935e458-d64f-4da9-bb7f-04b8a3dc8677)
 
